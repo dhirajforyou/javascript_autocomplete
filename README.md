@@ -1,5 +1,6 @@
 # javascript_autocomplete
 Javascript Autocomplete example for counties
+
 #Reference:
 
 https://www.w3schools.com/howto/howto_js_autocomplete.asp
