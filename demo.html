@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/styles.css">
+		<script src="/js.js"></script>
+		<script src="/data.js"></script>
+	</head>     
+<body>
+
+<div class="center">
+	<h2>Javascript Autocomplete</h2>
+	<div class="autocomplete" style="width:88%; padding-right: 10px; float: left;">
+		<input id="myInput" type="text" name="myCountry" placeholder="Enter Country name">
+	</div>
+	<div>
+		<input type="submit">
+	</div>
+</div>
+<script>
+	/*An array containing all the country names in the world:*/
+	var countries = [];
+	/* cuntries_data is from data.js*/
+	for(var i=0; i<countries_data.length; i++){
+	  countries.push(countries_data[i].name);
+	}
+	/*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+	autocomplete(document.getElementById("myInput"), countries);
+</script>
+</body>
+</html>
+
