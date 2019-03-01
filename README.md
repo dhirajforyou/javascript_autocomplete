@@ -1,5 +1,5 @@
 # javascript_autocomplete
-Javascript Autocomplete example for counties
+Javascript Autocomplete example for countries
 
 # Reference:
 
